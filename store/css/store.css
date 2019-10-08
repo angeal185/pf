@@ -11,7 +11,8 @@
   max-width: auto;
 }
 
-.header .form-search input.input-text {
+
+.header .form-search, .header .form-search input.input-text {
   background: #212121;
 }
 
@@ -45,46 +46,50 @@
 }
 
 .bg-white, .bg-white table {
-    background-color: #313131;
-    color: grey;
+  background-color: #313131;
+  color: grey;
 }
 
 .data-table tr {
-    border-bottom: 1px solid #212121;
+  border-bottom: 1px solid #212121;
 }
 
-tbody tr td:first-child{
- background: #fff;
+tbody tr td:first-child {
+  background: #fff;
 }
+
 .data-table {
-    width: 100%;
-    border: 1px solid #212121;
+  width: 100%;
+  border: 1px solid #212121;
 }
+
 .data-table thead th {
-    background: #313131;
+  background: #313131;
 }
 
 .data-table tfoot {
   border-bottom: 1px solid #212121;
 }
+
 .data-table tfoot tr {
-    background-color: #313131!important;
-}
-.black-button {
-    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #212121;
-    box-shadow: inset 0px 1px 0px 0px #212121;
-    background: #212121;
-    background-color: #212121;
-    border: 1px solid #212121;
-    float: right;
-    text-shadow: none;
+  background-color: #313131 !important;
 }
 
-.num_width.updateQuantity{
+.black-button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #212121;
+  box-shadow: inset 0px 1px 0px 0px #212121;
   background: #212121;
-    color: grey;
-    border: none;
+  background-color: #212121;
+  border: 1px solid #212121;
+  float: right;
+  text-shadow: none;
+}
+
+.num_width.updateQuantity {
+  background: #212121;
+  color: grey;
+  border: none;
 }
 
 .category-icons-2 img {
@@ -99,11 +104,15 @@ input.input-text, select, textarea {
 }
 
 .or span {
-    background-color: #212121;
-  }
+  background-color: #212121;
+}
+
 .navbar-default {
   background: #313131;
   border: 1px solid #212121;
+}
+.navbar-default .navbar-toggle {
+  border-color: #313131;
 }
 
 .pager {
@@ -140,55 +149,188 @@ input.input-text, select, textarea {
   background-color: #212121;
 }
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: grey;
+  background-color: #212121;
+  border: 1px solid #212121;
+  border-bottom-color: #212121;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #212121;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #212121;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #313131;
+}
+
 #category_grid {
   background-color: #313131;
 }
 
 li.category-cell {
-    width: 160px;
-    height: 130px;
-    border: 10px solid transparent;
-    background: #fff;
-    margin: 5px 10px;
-    overflow: hidden;
+  width: 160px;
+  height: 130px;
+  border: 10px solid transparent;
+  background: #fff;
+  margin: 5px 10px;
+  overflow: hidden;
 }
 
 .mini-products-list .product-image {
-    border: 1px solid #212121;
-    background: #fff;
-  }
+  border: 1px solid #212121;
+  background: #fff;
+      box-shadow: 0 0 8px #212121;
+}
 
-  .pager .pages li {
-      display: inline;
-      margin: 0;
-      padding: 4px;
-      background: #313131;
-      cursor: pointer;
-      border: 1px solid #212121;
-  }
+.pager .pages li {
+  display: inline;
+  margin: 0;
+  padding: 4px;
+  background: #313131;
+  cursor: pointer;
+  border: 1px solid #212121;
+}
 
-  .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    z-index: 2;
-    color: grey;
-    background-color: #212121;
-    border-color: #313131;
-    cursor: default;
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  z-index: 2;
+  color: grey;
+  background-color: #212121;
+  border-color: #313131;
+  cursor: default;
 }
 
 .pager .pages li.active, .pager .pages li:hover {
-    background: #212121;
-    border: none;
+  background: #212121;
+  border: none;
 }
 
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-    color: #e05189;
-    border-color: #212121;
+  color: #e05189;
+  border-color: #212121;
 }
 
 .hc-details {
+  border: 1px solid #212121;
+  -moz-box-shadow: 5px 5px 5px #212121;
+  -webkit-box-shadow: 5px 5px 5px #212121;
+  box-shadow: 5px 5px 5px #212121;
+  display: none;
+}
+
+#shop_all, .btn-add-to-cart, .btn-oos-notify, .btn-continue-shopping, #emailSignupBtn, .btn-styled {
+  background-color: #df4a89;
+  color: #ffffff;
+  text-shadow: 0 0 1px #fff;
+  border-color: #212121;
+  -webkit-box-shadow: 0 0 4px #212121;
+  box-shadow: 0 0 4px #212121;
+}
+
+input.range {
+  border: 1px solid #212121;
+  background: #212121;
+}
+
+.change-range {
+  margin-left: 6px;
+  border: 1px solid #212121;
+  background-color: #313131;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.progress {
+  background-color: #212121;
+  -webkit-box-shadow: 0 0 2px rgb(33, 33, 33);
+  box-shadow: 0 0 2px rgb(33, 33, 33);
+}
+
+.review-stars i, #review_counts_container .progress-bar {
+  color: #e8ff00;
+  font-size: 16px;
+}
+
+.slick-initialized .slick-slide {
+  background: #fff;
+}
+
+.box-up-sell, #reviews_container {
+  border-top: 1px solid #212121;
+}
+
+
+.yotpo .yotpo-default-button, .yotpo input[type="button"].yotpo-default-button {
+    background: #6A6C77;
+    color: #212121;
+}
+
+.help-link a:hover, .help-link a:focus {
     border: 1px solid #212121;
-    -moz-box-shadow: 5px 5px 5px #212121;
-    -webkit-box-shadow: 5px 5px 5px #212121;
-    box-shadow: 5px 5px 5px #212121;
-    display: none;
+    background: #313131!important;
+    color: #212121;
+}
+
+
+
+
+
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0!important;
+  }
+
+  to {
+    opacity: 1!important;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0!important;
+  }
+
+  to {
+    opacity: 1!important;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1!important;
+  }
+
+  to {
+    opacity: 0!important;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1!important;
+  }
+
+  to {
+    opacity: 0!important;
+  }
+}
+
+.fadein {
+  -webkit-animation-name: fadein;
+  animation-name: fadein;
+}
+
+.fadeout {
+  -webkit-animation-name: fadeout;
+  animation-name: fadeout;
+}
+.fadein, .fadeout {
+  -webkit-animation-duration: .1s;
+  animation-duration: .1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
