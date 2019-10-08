@@ -18,3 +18,14 @@ initpre();
 initpre = undefined;
 console.log('pre finished!')
 document.getElementById('prescr').remove();
+
+
+
+var totop = h('div.totop.material-icons.shr8', {
+  onclick: function (e) {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+}, 'expand_less'))
