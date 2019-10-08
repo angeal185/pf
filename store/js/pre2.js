@@ -16,4 +16,5 @@ var initpre = function(){
 
 initpre();
 initpre = undefined;
+console.log('pre finished!')
 document.getElementById('prescr').remove();
