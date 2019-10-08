@@ -1,8 +1,194 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
   background: #444;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #777;
+}
+
+#page_wrapper {
+  max-width: auto;
+}
+
+.header .form-search input.input-text {
+  background: #212121;
+}
+
+.border-color1 {
+  border-color: #212121;
+}
+
+.header .form-search button.button {
+  background-color: #313131;
+  border: 1px solid #212121;
+  line-height: 1;
+}
+
+.sidebar .block, #home_mobile_cats {
+  background-color: #313131;
+  border: 1px solid rgb(33, 33, 33);
+  box-shadow: 0 0 3px 0 #212121;
+}
+
+.products-grid .product-block-inner {
+  background: #313131;
+}
+
+.products-grid li .product-block, .product-carousel .slider-item .product-block {
+  border: 1px solid rgb(33, 33, 33);
+  box-shadow: 0 0 4px rgb(33, 33, 33);
+}
+
+.bg-white {
+  background: #313131;
+}
+
+.bg-white, .bg-white table {
+    background-color: #313131;
+    color: grey;
+}
+
+.data-table tr {
+    border-bottom: 1px solid #212121;
+}
+
+tbody tr td:first-child{
+ background: #fff;
+}
+.data-table {
+    width: 100%;
+    border: 1px solid #212121;
+}
+.data-table thead th {
+    background: #313131;
+}
+
+.data-table tfoot {
+  border-bottom: 1px solid #212121;
+}
+.data-table tfoot tr {
+    background-color: #313131!important;
+}
+.black-button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #212121;
+    box-shadow: inset 0px 1px 0px 0px #212121;
+    background: #212121;
+    background-color: #212121;
+    border: 1px solid #212121;
+    float: right;
+    text-shadow: none;
+}
+
+.num_width.updateQuantity{
+  background: #212121;
+    color: grey;
+    border: none;
+}
+
+.category-icons-2 img {
+  box-shadow: 0 0 6px white;
+}
+
+input.input-text, select, textarea {
+  background: #212121;
+  border: 1px solid #212121;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.or span {
+    background-color: #212121;
+  }
+.navbar-default {
+  background: #313131;
+  border: 1px solid #212121;
+}
+
+.pager {
+  background: #313131;
+  border: none;
+}
+
+.help-link a {
+  border: 1px solid #212121;
+  border-radius: 4px;
+  background: #212121;
+  color: grey;
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default #main_nav:not(.in) .navbar-nav>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-default .navbar-nav>li:hover>a {
+  color: #C9447C;
+  background-color: #212121;
+  border-bottom: 1px solid #C9447C;
+}
+
+.navbar-default, .navbar-default .dropdown-menu, .navbar-default .navbar-nav>.open>a {
+  background-color: #212121;
+  border-top: 1px solid rgb(33, 33, 33);
+  border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+.navbar .dropdown-menu li>a {
+  color: grey;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default #main_nav:not(.in) .navbar-nav>li:hover, #main_nav:not(.in) .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  color: #C9447C;
+  background-color: #212121;
+}
+
+#category_grid {
+  background-color: #313131;
+}
+
+li.category-cell {
+    width: 160px;
+    height: 130px;
+    border: 10px solid transparent;
+    background: #fff;
+    margin: 5px 10px;
+    overflow: hidden;
+}
+
+.mini-products-list .product-image {
+    border: 1px solid #212121;
+    background: #fff;
+  }
+
+  .pager .pages li {
+      display: inline;
+      margin: 0;
+      padding: 4px;
+      background: #313131;
+      cursor: pointer;
+      border: 1px solid #212121;
+  }
+
+  .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 2;
+    color: grey;
+    background-color: #212121;
+    border-color: #313131;
+    cursor: default;
+}
+
+.pager .pages li.active, .pager .pages li:hover {
+    background: #212121;
+    border: none;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    color: #e05189;
+    border-color: #212121;
+}
+
+.hc-details {
+    border: 1px solid #212121;
+    -moz-box-shadow: 5px 5px 5px #212121;
+    -webkit-box-shadow: 5px 5px 5px #212121;
+    box-shadow: 5px 5px 5px #212121;
+    display: none;
 }
