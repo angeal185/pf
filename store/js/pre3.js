@@ -12,6 +12,13 @@ var initpre = function(){
   scr.src = jsd + 'js/store.js';
   document.body.appendChild(scr);
 
+  let nlink = document.getElementsByTagName('link');
+  for (let i = 0; i < nlink.length; i++) {
+    if(nlink[i].getAttribute('href') === '/asset/css/base?v=53'){
+      nlink[i].remove()
+    }
+  }
+
 }
 
 initpre();
