@@ -16,4 +16,4 @@ var initpre = function(){
 
 initpre();
 initpre = undefined;
-document.head.getElementById('prescr').remove();
+document.body.getElementById('prescr').remove();
