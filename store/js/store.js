@@ -2,9 +2,9 @@
 var wow = new WOW({delay: '1s',duration: '1s'});
 var signUpTpl = h('div.newsletter',
   h('form#emailSignupForm',
-    h('div.block-content.row',
+    h('div.row.inline-flex',
       h('div.col-md-6',
-        h('div.newsletterTitle', 'Sign up for our newsletter'),
+        h('h3.newsletterTitle', 'Sign up for our newsletter'),
         h('div.newsletterSub', 'Sign Up for Our Weekly Emails. Be the first to know about Deals &amp; Clearance! Unsubscribe Anytime. Your privacy is Important to us.')
       ),h('div.col-md-6',
           h('input#footer_email.text.field.fb-email.input-text.required-entry.validate-email',{
@@ -63,7 +63,7 @@ $k(document).ready(function() {
   let srchform = $k('#search_mini_form'),
   satinfo = $k('.tm_headerlinkmenu'),
   cright = $k('.footer_bottom_inner address'),
-  ftLeft = $k('#footer'),
+  ftRight = $k('#footer'),
   nletter = $k('#emailSignupForm').parent('div').clone(true, true);
 
   $k('#emailSignupForm').parent('div').remove()
@@ -78,8 +78,8 @@ $k(document).ready(function() {
   cright.remove();
 
   $k('.last.help-link').removeClass('help-link').text('help')
-  $k('.footer_bottom_inner').before(ftLeft.clone());
-  ftLeft.remove()
+  $k('.footer_bottom_inner').after(ftRight.clone());
+  ftRight.remove()
 
   $k('.page .wrapper br').remove()
 

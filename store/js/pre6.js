@@ -1,4 +1,6 @@
 
+
+/*
 var initpre = function(){
 
   var li = document.createElement('link'),
@@ -18,7 +20,7 @@ initpre();
 initpre = undefined;
 console.log('pre finished!')
 document.getElementById('prescr').remove();
-
+*/
 
 
 var totop = h('div.totop.material-icons.shr8', {
@@ -36,3 +38,4 @@ $k('.category-icons-2 li a img').on('load', function(){
 })
 
 //https://www.imjpg.com/a/uploads/2019/10/08/20191008131255602.png
+//http://cambuilder.com/app/#/sitebuilder/edit?new_review_site_id=19081
