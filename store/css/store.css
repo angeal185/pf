@@ -307,6 +307,12 @@ input.range {
       font-size: 30px;
       line-height: 1.4;
       text-align: center;
+      cursor: pointer;
+      z-index: 9999;
+}
+
+.toTop:hover{
+  box-shadow: 0 0 10px black;
 }
 
 
