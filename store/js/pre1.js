@@ -28,4 +28,11 @@ var totop = h('div.totop.material-icons.shr8', {
       behavior: 'smooth'
     });
   }
-}, 'expand_less'))
+}, 'expand_less')
+
+
+$('.category-icons-2 li a img').on('load', function(){
+  clonsole.log('img loaded');
+})
+
+//https://www.imjpg.com/a/uploads/2019/10/08/20191008131255602.png
