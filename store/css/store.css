@@ -421,3 +421,26 @@ input.range {
     margin-bottom: 10px;
     border-radius: 4px;
 }
+
+
+#recentitems{
+margin: 10px 0;
+}
+
+.recentitem .media-left{
+  background: #fff;
+      vertical-align: middle;
+      width: 100px;
+      min-width: 100px;
+      max-width: 100px;
+}
+
+
+.recentitem .media-body{
+padding-left: 10px;
+}
+
+
+.recentitem .media-left a img{
+      margin: 0 auto;
+}
