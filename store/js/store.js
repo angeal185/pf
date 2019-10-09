@@ -1,6 +1,26 @@
 //store
 var wow = new WOW({delay: '1s',duration: '1s'});
-
+var signUpTpl = h('div.newsletter',
+  h('form#emailSignupForm',
+    h('div.block-content.row',
+      h('div.col-md-6',
+        h('div.newsletterTitle', 'Sign up for our newsletter'),
+        h('div.newsletterSub', 'Sign Up for Our Weekly Emails. Be the first to know about Deals &amp; Clearance! Unsubscribe Anytime. Your privacy is Important to us.')
+      ),h('div.col-md-6',
+          h('input#footer_email.text.field.fb-email.input-text.required-entry.validate-email',{
+            type: 'text',
+            name: 'email',
+            placeholder: 'Enter Your Email Address'
+          }),
+          h('button#emailSignupBtn.button',{
+            type: 'submit',
+            title: 'Sign Up'
+          }, 'SIGN UP'
+        )
+      )
+    )
+  )
+)
 window.scrollTo({
   top: 0,
   behavior: 'smooth'
@@ -63,25 +83,6 @@ $k(document).ready(function() {
 
   $k('.page .wrapper br').remove()
 
-  $k('.col-main-inner').append(nletter.removeAttr('style').addClass('.newsletter'))
+  $k('.col-main-inner').append(signUpTpl)
 
 });
-
-var signUpTpl = h('div.newsletter',
-  h('form#emailSignupForm',
-    h('div.block-content.row',
-      h('div.col-md-6',
-
-      ),h('div.col-md-6',
-        h('input')
-      )
-    )
-  )
-)
-
-  <div class="form-subscribe-header">
-      <label for="newsletter" style="font-weight:bold;">Take 10% Off Your Order!&nbsp;</label><img class="hasToolTip" src="/images/assets/tooltip-icon.png" data-hasqtip="0">
-      <div style="display:none;">Sign Up for Our Weekly Emails. Be the first to know about Deals &amp; Clearance! Unsubscribe Anytime. Your privacy is Important to us.</div>
-      <input type="text" name="email" id="footer_email" title="Sign up for our newsletter" class="text field fb-email input-text required-entry validate-email" placeholder="Enter Your Email Address">
-      <button type="submit" title="Sign Up" class="button" id="emailSignupBtn">SIGN UP</button>
-  </div>
