@@ -31,7 +31,7 @@ var totop = h('div.totop.material-icons.shr8', {
 }, 'expand_less')
 
 
-$('.category-icons-2 li a img').on('load', function(){
+$k('.category-icons-2 li a img').on('load', function(){
   clonsole.log('img loaded');
 })
 
